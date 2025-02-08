@@ -19,7 +19,7 @@ function YesClick() {
     yesButton.textContent = messages[mIndex];
     mIndex = (mIndex + 1) % messages.length;
     const currentSize = parseFloat(window.getComputedStyle(noButton).fontSize);
-    noButton.style.fontSize = currentSize * 2 + "px";
+    noButton.style.fontSize = currentSize * 1.5 + "px";
 }
 
 function NoClick() {
